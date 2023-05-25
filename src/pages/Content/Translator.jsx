@@ -113,7 +113,10 @@ function Translator() {
                 ? modalPosition.y - 128
                 : modalPosition.y,
 
-            left: modalPosition.x,
+            left:
+              modalPosition.x + 520 > window.innerWidth
+                ? modalPosition.x - 520
+                : modalPosition.x,
           }}
         >
           <Spin tip="Loading..." spinning={loading}>
