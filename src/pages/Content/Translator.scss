@@ -1,0 +1,18 @@
+.translator-container {
+  position: absolute;
+  > .anticon {
+    font-size: 20px;
+    background-color: #fff;
+    &:hover {
+      color: #1e80ff;
+    }
+  }
+}
+.translator-modal {
+  .article {
+    min-height: 30px;
+  }
+}
+// .ant-modal-content {
+//   padding-bottom: 30px;
+// }
