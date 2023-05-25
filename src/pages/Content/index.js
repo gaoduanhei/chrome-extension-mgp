@@ -12,6 +12,5 @@ element.id = id;
 body.append(element);
 
 const container = document.getElementById(id);
-console.log('body si : ', body);
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
 root.render(<Translator />);
